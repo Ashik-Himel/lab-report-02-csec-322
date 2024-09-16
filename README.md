@@ -47,7 +47,9 @@ INSERT INTO employees (employee_name, department_name)
 VALUES ('Ashikujjaman Himel', 'Development'), ('Shimul Sheikh', 'Design'), ('Sakib Ahammed', 'Testing');
 
 INSERT INTO performance_reviews (employee_name, department_name, review_date, sales_performance_score, customer_feedback_score, project_completion_score)
-VALUES ('Ashikujjaman Himel', 'Development', '2024-09-14', 99.5, 95, 100), ('Shimul Sheikh', 'Design', '2024-09-14', 80, 75, 95), ('Sakib Ahammed', 'Testing', '2024-09-14', 88.5, 95, 100);
+VALUES ('Ashikujjaman Himel', 'Development', '2024-09-14', 99.5, 95, 100),
+	('Shimul Sheikh', 'Design', '2024-09-14', 80, 75, 95),
+	('Sakib Ahammed', 'Testing', '2024-09-14', 88.5, 95, 100);
 ```
 
 ## Q1: Total number of performance reviews conducted
